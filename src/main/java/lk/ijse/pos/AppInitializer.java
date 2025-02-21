@@ -32,7 +32,7 @@ public class AppInitializer extends Application {
         });
 
         loadMainSceneTask.setOnFailed(event -> {
-            System.err.println("Failed to load the main layout."); // Print error message
+            System.err.println("Failed to load the main layout.");
         });
 
         new Thread(loadMainSceneTask).start();
