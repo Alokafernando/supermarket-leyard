@@ -6,6 +6,7 @@ module lk.ijse.pos.main {
     requires com.jfoenix;
     requires net.sf.jasperreports.core;
     requires java.mail;
+    requires java.desktop;
 
     opens lk.ijse.pos.tm to javafx.base;
 

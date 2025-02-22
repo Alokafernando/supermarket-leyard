@@ -32,7 +32,12 @@ public class ItemBOImpl implements ItemBO {
 
     @Override
     public void update(ItemDTO item) throws SQLException, ClassNotFoundException {
-        itemDAo.update(new Item(item.getItemName(), item.getQuantity(), item.getPrice(), item.getItemId()));
+//        itemDAo.update(new Item(
+//                item.getItemName(),
+//                item.getQuantity(),
+//                item.getPrice(),
+//                item.getItemId())
+//        );
     }
 
     @Override
